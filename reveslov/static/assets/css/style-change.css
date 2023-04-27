@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family:'Montserrat';
+    font-weight: 400;
+    color: #23232B;
+    font-size: 15px;
+ }
+
+ li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    background-image: url(/static/assets/img/registration-bg-image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+  }
+   
+  .header {
+    height: 70px;
+    width: 100%;
+  }
+  .LK a{
+    margin-right: 120px;
+    color: #23232B;
+  }
+
+  .LK a:hover{
+    color: #976415;
+  }
+  .nav-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+ }
+
+ .logo {
+  padding-left: 100px;
+  } 
+
+  .navbar {
+  display: flex;
+  flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: 54px;
+ }
+
+  .nav-link a {
+    color: #23232B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-link a:hover{
+    color: #976415;
+  }
+
+  .LK {
+    margin-right: 120px;
+    color: #23232B;
+  }
+
+  .LK:hover{
+    color: #976415;
+  }
+
+  .phone-button {
+    border-radius: 20px;
+    background: #23232B;
+    border: 0;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block; 
+  }
+
+  .phone-button:hover {
+    background: #C8B68E;
+    border-radius: 20px;
+    border: 0;
+    color: #23232B;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block; 
+  }
+
+  hr {
+    border: 1px solid #666666;
+    width: 1350px;
+    margin-left: 50px;
+    margin-right: 45px;
+    margin-top: 35px;
+  }
+
+  .title-page {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #23232B;
+    padding-top: 55px;
+    margin-left: 100px;
+  }
+  
+  .section1-elements {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-right: 120px;
+  }
+ 
+  .icon-serf {
+    margin-bottom: 30px;
+  }
+
+ .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: 75px;
+    
+    margin-bottom: 200px;
+  
+ }
+
+ .input-form {
+    border: 1px solid #666666;
+    border-radius: 30px;
+    width: 465px;
+    height: 54px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #23232B;
+ }
+
+ 
+ .input-form:focus {
+  border: 2px solid #826E4F;
+  outline: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 20px;
+  color: #23232B;
+}
+
+ .form-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #23232B;
+    margin-bottom: 20px;
+ }
+
+ input::-webkit-input-placeholder {
+  color: #999999; 
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 5px;
+  
+}
+
+.but-fotm {
+    background: #23232B;
+    border-radius: 30px;
+    padding: 15px 0px;
+    color: #FFFFFF;
+    width: 465px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+    
+    border: 0;
+}
+
+.but-fotm:hover {
+    background: #C8B68E;
+    border-radius: 30px;
+    border: 0;
+    color: #23232B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block; 
+  }
+
+  .but-fotm2 {
+    padding: 15px 0px;
+    width: 465px;
+    height: 54px;
+    border: 2px solid #23232B;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #23232B;
+  }
+
+  .but-fotm2:hover {
+    border: 2px solid #826E4F;
+    border-radius: 30px;
+    color: #826E4F;
+  }
+
+  .but-text a {
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    color: #23232B;
+    margin-top: 5px;
+  }
+
+  .but-text1 a {
+    color: #826E4F;
+    font-style: bold;
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+  }
+
+  .but-grup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+
+  .sprint-strok {
+    margin-right: 70px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    background-color: #23232B;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 150px;
+  }
+
+  .logo-f {
+   padding-left: 100px; 
+   padding-bottom: 60px;
+  }
+
+  .navbar-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media-1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+  }
+
+  .social-media-blok {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-img {
+    padding-right: 25px;
+  }
+
+  .nav-link-f {
+   padding-bottom: 20px;
+  }
+
+  .nav-link-f a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .nav-link-f a:hover{
+    color: #C8B68E;
+  }
+  
+  .contakts-footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .phone-f {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E3D7BD;
+  }
+
+  .phone-f:hover {
+    color: #FFFFFF;
+  }
+
+
+  @media screen and (min-width: 1750px){
+ 
+    .HD {
+      margin-left: 100px;
+    
+    }
+    hr {
+      
+      width: 1400px;
+      margin-right: 75px;
+    }
+   
+    .section1-elements {
+      
+      padding-right: 400px;
+    }
+
+    .LK {
+      margin-right: 450px;
+      
+    }
+  }
+
+
+  @media (min-width: 1501px) and (max-width: 1749px){
+ 
+    hr {
+      
+      width: 1300px;
+      margin-right: 55px;
+    }
+      .section1-elements {
+        
+        padding-right: 370px;
+      }
+  
+      .LK {
+        margin-right: 370px;
+        
+      }
+    }

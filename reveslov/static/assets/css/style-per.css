@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family:'Montserrat';
+    font-weight: 400;
+    color: #23232B;
+    font-size: 15px;
+ }
+
+ li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    background-image: url(/static/assets/img/personal-data-bg-image.jpg);
+    background-size: cover;
+    height: 1120px;
+    position: relative;
+  }
+
+  .header {
+    height: 70px;
+    width: 100%;
+  }
+
+  .nav-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+ }
+
+ .logo {
+  padding-left: 100px;
+  }
+
+  .navbar {
+  display: flex;
+  flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: 54px;
+ }
+
+  .nav-link a {
+    color: #23232B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .LK a{
+    margin-right: 120px;
+    color: #23232B;
+  }
+
+  .LK a:hover{
+    color: #976415;
+  }
+  .nav-link a:hover{
+    color: #976415;
+  }
+
+  .LK {
+    margin-right: 120px;
+    color: #23232B;
+  }
+
+  .LK:hover{
+    color: #976415;
+  }
+
+  .phone-button {
+    border-radius: 20px;
+    background: #23232B;
+    border: 0;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  .phone-button:hover {
+    background: #C8B68E;
+    border-radius: 20px;
+    border: 0;
+    color: #23232B;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  hr {
+    border: 1px solid #666666;
+    width: 1350px;
+    margin-left: 50px;
+    margin-right: 45px;
+    margin-top: 35px;
+  }
+
+  .title-page {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #23232B;
+    padding-top: 55px;
+    margin-left: 100px;
+  }
+
+  .icon-serf {
+    margin-bottom: 30px;
+  }
+
+  .section1-elements {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-right: 120px;
+  }
+
+  .form-lk {
+    display: flex;
+    flex-direction: column;
+    width: 465px;
+    height: 728px;
+    margin-left: 100px;
+    margin-top: 68px;
+  }
+
+  .input-form {
+    border: 1px solid #666666;
+    border-radius: 30px;
+    width: 465px;
+    height: 54px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #23232B;
+  }
+
+  .input:valid {
+    border: 2px solid #826E4F;
+    outline: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #23232B;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #999999;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 20px;
+
+  }
+
+  .input-form:hover {
+    border: 2px solid #826E4F;
+  }
+
+
+  .but-fotm2 {
+    padding: 15px 0px;
+    width: 465px;
+    height: 54px;
+    border: 2px solid #23232B;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #23232B;
+    margin-top: 50px;
+  }
+
+  .but-fotm2:hover {
+    border: 2px solid #826E4F;
+    border-radius: 30px;
+    color: #826E4F;
+  }
+
+    .form-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px;
+    margin-left: 175px;
+    }
+
+    .page-content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .f-bt1 {
+      padding: 15px 0px;
+      background: #CCCCCC;
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #23232B;
+      width: 375px;
+      height: 54px;
+      margin-bottom: 30px;
+    }
+
+
+    .f-bt3 {
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 375px;
+      height: 54px;
+      margin-bottom: 30px;
+      background: #999999;
+      padding: 15px 0px;
+    }
+
+    .f-bt4 {
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 375px;
+      height: 54px;
+      margin-bottom: 30px;
+      background: #826E4F;
+      padding: 15px 0px;
+    }
+
+    .f-bt5 {
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #23232B;
+      width: 375px;
+      height: 54px;
+
+      background: #C8B68E;
+      padding: 15px 0px;
+    }
+
+    .f-bt6 {
+      border: 1px solid #23232B;
+      border-radius: 30px;
+      width: 375px;
+      height: 54px;
+      text-align: center;
+      padding: 15px 0px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #23232B;
+      margin-top: 30px;
+    }
+
+
+  .footer {
+    background-color: #23232B;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 150px;
+  }
+
+  .logo-f {
+   padding-left: 100px;
+   padding-bottom: 60px;
+  }
+
+  .navbar-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media-1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+  }
+
+  .social-media-blok {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-img {
+    padding-right: 25px;
+  }
+
+  .nav-link-f {
+   padding-bottom: 20px;
+  }
+
+  .nav-link-f a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .nav-link-f a:hover{
+    color: #C8B68E;
+  }
+
+  .contakts-footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .phone-f {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E3D7BD;
+  }
+
+  .phone-f:hover {
+    color: #FFFFFF;
+  }
